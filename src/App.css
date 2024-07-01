@@ -1,0 +1,117 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+#con{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#concenter{
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+#constyle{
+  height: auto;
+  min-height: 300px;
+  width: 600px;
+  white-space: pre-wrap;
+}
+
+#text{
+  position: absolute;
+  top: 63px;
+  left: 0px;
+  width: 600px;
+  background-color: transparent;
+  color: transparent;
+  font-size: inherit;
+  font-style: inherit;
+  caret-color: black;
+  border: none;
+  resize: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#btns{
+  height: 40px;
+  width: 557px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid #f6f6f6;
+  background-color: #fefefe;
+}
+
+#select{
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border: 1px solid lightgray;
+  margin: 0px 10px;
+}
+
+textarea:focus-visible{
+  outline: none;
+}
+
+#constyle:focus-visible{
+  background-color: inherit;
+  opacity: 10%;
+}
+
+#nbrpar{
+  position: relative;
+}
+
+#nbrs{
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  font-style: inherit;
+  font-size: inherit;
+}
+
+#git{
+  font-size: 2rem;
+}
+
+#git:hover{
+  cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+
+    #text,#constyle,#concenter{
+      width: 450px;
+    }
+    #btns{
+      width: 407px;
+    }
+}
+
+@media (max-width:485px) {
+
+  #text,#constyle,#concenter{
+    width: 350px;
+  }
+  #btns{
+    width: 307px;
+  }
+}
+
+@media (max-width:375px) {
+
+  #text,#constyle,#concenter{
+    width: 300px;
+  }
+  #btns{
+    width: 257px;
+  }
+}
