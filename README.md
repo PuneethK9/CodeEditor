@@ -2,7 +2,7 @@
 
 Code Editor with syntax highlighting.
 
-<a href="https://github.com/PuneethK9/CodeEditor/tree/master/src/assests/Codeeditorclip-ezgif.com-speed.gif">
+<a href="https://raw.githubusercontent.com/PuneethK9/CodeEditor/master/src/assests/Codeeditorclip-ezgif.com-speed.gif">
 <img src="./src/assests/Codeeditorclip-ezgif.com-speed.gif" width="400"></a>
 
 ## Features
@@ -21,7 +21,7 @@ Code Editor with syntax highlighting.
 
 It works by overlaying a syntax highlighted `<pre>` block over a `<textarea>`. When you type, select, copy text etc., you interact with the underlying `<textarea>`, so the experience feels native.
 
-`Highlight_Line` is Used For Line Highlighting
+`Highlight_Line` is Used For Line Highlighting  
 `handlekey` is Used for the following key presses
 - `Enter` Key
 - `Backspace` Key
